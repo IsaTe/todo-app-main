@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+ </head>
+
+
+<body>
+  <div class="background"></div>
+  <section class="app">
+    <div class="container">
+      <div class="todo-app-header">
+        <h1>TODO</h1>
+        <button class="theme-switch" aria-label="switch-color-theme">
+          <img src="images/icon-moon.svg" alt="switch-theme-icon">
+        </button>
+      </div>
+      <div class="todo-app-main">
+        <form action="" class="todo-input">
+          <div class="input-new-task">
+            <button class="check" aria-label="add-item-button"></button>
+            <input type="text" placeholder="Create todo list here">
+          </div>
+        </form>
+        <div class="todo-list-container">
+          <ul class="todo-list"></ul>
+          <div class="todo-controls">
+            <div class="todo-controls-stock">
+              <span id="number">0</span>items left
+            </div>
+            <div class="todo-controls-actions">
+              <button class="todo-controls-actions--all" id="all">All</button>
+              <button class="todo-controls-actions--active" id="active">Active</button>
+              <button class="todo-controls-actions--completed" id="completed">Completed</button>              
+            </div>
+            <button class="todo-controls-clear" id="clear-completed">Clear completed</button>
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+ 
+
+  
+
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">IsaTe</a>.
+  </div>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</body>
+</html>
